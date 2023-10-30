@@ -13,7 +13,7 @@ if (list.length === 0) {
     return (<></>)
 } else { 
     return (
-        <ul>
+        <ul className="chat-history">
             {messages.map((message) => {
                 if (message.type === 'message') {
                     return <Message from={message.from.name} message={message} key={message.id} />

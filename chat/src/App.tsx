@@ -4,9 +4,9 @@ import {messages} from './data/messages';
 
 function App() {
   return (
-    <>
+    <div className="chat">
       <MessageHistory list={messages || []} />
-    </>
+    </div>
   );
 }
 

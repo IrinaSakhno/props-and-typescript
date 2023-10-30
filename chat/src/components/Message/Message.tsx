@@ -12,7 +12,7 @@ const Message = ({ from, message }: Props) => {
       <div className="message-data">
         <span className="message-data-name">
           <i className="fa fa-circle online"></i>
-          {from.name}
+          {from}
         </span>
         <span className="message-data-time">{message.time}</span>
       </div>

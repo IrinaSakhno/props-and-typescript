@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url("../src/vendor/font-awesome-4.7.0/css/font-awesome.min.css");
 
 *,
 *:before,
@@ -211,4 +212,17 @@ body {
   content: " ";
   clear: both;
   height: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.middle-circle {
+  color: #acdb9a;
+}
+
+.last-circle {
+  color: #d9f0d0;
 }
